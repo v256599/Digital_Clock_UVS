@@ -1,4 +1,4 @@
-#### Digital Clock
+# Digital Clock
 Team members
 - Patrik Svoboda (responsible for ...)
 - Dominik Uherka (responsible for ...)
