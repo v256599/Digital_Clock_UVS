@@ -25,7 +25,7 @@ Hardware description of demo application
 Describe your implementation. Put a descriptive top-level schematic of your application.
 
 Software description
-Put flowchats/state diagrams of your algorithm(s) and direct links to source/testbench files in src and sim folders.
+- Put flowchats/state diagrams of your algorithm(s) and direct links to source/testbench files in src and sim folders.
 
 Component(s) simulations
 Write descriptive text and put simulation screenshots of components you created during the project.
