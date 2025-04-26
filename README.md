@@ -25,8 +25,6 @@ Describe your implementation. Put a descriptive top-level schematic of your appl
 
 
 ## Software description
-Put flowchats/state diagrams of your algorithm(s) and direct links to source/testbench files in src and sim folders.
-
 The VHDL implementation is modular, with each functionality developed as a separate entity. The main modules are:
 - [`clock_counter.vhd`](Project_digital_clock/Project_digital_clock.srcs/sources_1/imports/VHD2/clock_counter.vhd) — time counting
 - [`stopwatch.vhd`](Project_digital_clock/Project_digital_clock.srcs/sources_1/imports/VHD2/stopwatch.vhd) — stopwatch functionality
