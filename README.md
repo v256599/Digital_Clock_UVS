@@ -21,7 +21,7 @@ This project implements a fully functional digital clock system using VHDL, desi
 
 
 ## Hardware description of demo application!
-Describe your implementation. Put a descriptive top-level schematic of your application.
+# Put a descriptive top-level schematic of your application.
 
 The demo application is a digital clock system implemented on the Nexys A7 FPGA development board. The system integrates multiple functional blocks, including a standard clock (hours, minutes, seconds), a stopwatch module, and a date management module (day, month, year). 
 
