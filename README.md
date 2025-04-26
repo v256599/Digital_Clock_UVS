@@ -1,6 +1,6 @@
 # Digital Clock
 ### Team members:
-- Patrik Svoboda (responsible for Main programs)
+- Patrik Svoboda (responsible for Main programs + Diagrams)
 - Dominik Uherka (responsible for Main programs + GitHub)
 - Daniel Valčík  (responsible for Main programs + Testbenches)
 
