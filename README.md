@@ -6,8 +6,7 @@ Team members
 
 
 ## Abstract
-An abstract is a short summary of your project, usually about a paragraph (6-7 sentences, 150-250 words) long. A well-written abstract serves multiple purposes: (a) an abstract lets readers get the gist or essence of your project quickly; (b) an abstract prepares readers to follow the detailed information, description, and results in your report; (c) and, later, an abstract helps readers remember key points from your project.
-
+This project implements a fully functional digital clock system using VHDL, designed to operate on the Nexys A7 FPGA development board. The clock features multiple operating modes, including standard time display, stopwatch functionality, and date management (day, month, year). Users can interact with the system through push-buttons to switch modes, set time and date values, and control the stopwatch. The design includes multiple subsystems such as clock dividers, counters, mode selectors, and multiplexed 7-segment display drivers, all integrated under a top-level digital clock module. Comprehensive testbenches were developed for each module to ensure correct functionality before system-level integration. This project demonstrates practical digital design techniques, modular VHDL development, and real-world implementation on FPGA hardware, providing a complete solution for both timekeeping and user interaction.
 
 ## The main contributions of the project are:
 -
