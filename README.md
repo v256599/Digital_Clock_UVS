@@ -20,7 +20,8 @@ This project implements a fully functional digital clock system using VHDL, desi
 [Optional: Link to your short video presentation.]
 
 
-## Hardware description of demo application!
+## Hardware description
+- Top_level:
 ![Top_level](https://github.com/v256599/Digital_Clock_UVS/blob/main/hruby_nakres.png?raw=true)
 The demo application is a digital clock system implemented on the Nexys A7 FPGA development board. The system integrates multiple functional blocks, including a standard clock (hours, minutes, seconds), a stopwatch module, and a date management module (day, month, year). 
 
