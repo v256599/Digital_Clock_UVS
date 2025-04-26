@@ -21,15 +21,16 @@ This project implements a fully functional digital clock system using VHDL, desi
 
 
 ## Hardware description of demo application!
-
 Describe your implementation. Put a descriptive top-level schematic of your application.
+
+
 
 
 ## Software description
 Put flowchats/state diagrams of your algorithm(s) and direct links to source/testbench files in src and sim folders.
 
 The VHDL implementation is modular, with each functionality developed as a separate entity. The main modules are:
-- `Project_digital_clock/Project_digital_clock.srcs/sources_1/imports/VHD2/clock_counter.vhd` — time counting
+- [`time_counter.vhd`](Project_digital_clock/Project_digital_clock.srcs/sources_1/imports/VHD2/clock_counter.vhd) — time counting
 - `stopwatch.vhd` — stopwatch functionality
 - `date_display.vhd` — date management
 - `mode_switch.vhd` — mode selection
