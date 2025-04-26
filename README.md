@@ -21,7 +21,8 @@ An abstract is a short summary of your project, usually about a paragraph (6-7 s
 [Optional: Link to your short video presentation.]
 
 
-## Hardware description of demo application
+## Hardware description of demo application!
+
 Describe your implementation. Put a descriptive top-level schematic of your application.
 
 
@@ -31,3 +32,10 @@ Put flowchats/state diagrams of your algorithm(s) and direct links to source/tes
 
 ## Component(s) simulations
 Write descriptive text and put simulation screenshots of components you created during the project.
+-- =============================================================================
+-- Entity: clk_1hz
+-- Description: Clock divider to generate a 1 Hz output clock signal.
+[tb_clk_1hz](https://github.com/user-attachments/assets/2bc5c727-ae9a-49c7-b9eb-7ac0147ebc0b)
+-- The input clock (clk_in) is a high-frequency signal (e.g., 100 MHz).
+-- The output clock (clk_out) is divided down to approximately 1 Hz.
+-- =============================================================================
