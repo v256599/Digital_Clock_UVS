@@ -2,7 +2,7 @@
 ### Team members:
 - Patrik Svoboda (responsible for Main programs)
 - Dominik Uherka (responsible for Main programs + GitHub)
-- Daniel Valčík (responsible for Main programs +Testbenches)
+- Daniel Valčík  (responsible for Main programs + Testbenches)
 
 
 ## Abstract
