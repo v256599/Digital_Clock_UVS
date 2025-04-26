@@ -35,7 +35,9 @@ Write descriptive text and put simulation screenshots of components you created 
 -- =============================================================================
 -- Entity: clk_1hz
 -- Description: Clock divider to generate a 1 Hz output clock signal.
-[tb_clk_1hz]([https://github.com/user-attachments/assets/2bc5c727-ae9a-49c7-b9eb-7ac0147ebc0b](https://github.com/v256599/Digital_Clock_UVS/blob/main/Testbenches/tb_clk_1hz.png?raw=true))
+
+![tb_clk_1hz](https://github.com/user-attachments/assets/c02687ae-c638-4041-8d1e-12d92fb6eb9b)
+
 -- The input clock (clk_in) is a high-frequency signal (e.g., 100 MHz).
 -- The output clock (clk_out) is divided down to approximately 1 Hz.
 -- =============================================================================
