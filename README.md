@@ -2,7 +2,7 @@
 ### Team members:
 - Patrik Svoboda (responsible for ...)
 - Dominik Uherka (responsible for ...)
-- Daniel Valčík (responsible for ....)
+- Daniel Valčík (responsible for ...)
 
 
 ## Abstract
@@ -48,11 +48,6 @@ Put flowchats/state diagrams of your algorithm(s) and direct links to source/tes
 - Supports setting mode to adjust hours and minutes using buttons.
 - Allows cursor switching between minutes and hours.
 
-### Component: date_display
-- Description: Module for displaying and adjusting the date (day, month, year).
-![tb_date_display](https://github.com/user-attachments/assets/6d8f16af-ce0e-4cf0-9479-91a0584bfc94)
-- Supports cursor switching and individual field adjustment using buttons.
-
 ### Component: decoder
 - Description: BCD to 7-segment decoder for displaying digits 0–9.
 ![tb_decoder](https://github.com/user-attachments/assets/7bd922a7-bc39-40f3-b1ee-5c9bb98b66a3)
@@ -68,14 +63,19 @@ Put flowchats/state diagrams of your algorithm(s) and direct links to source/tes
 ![tb_anode_picker](https://github.com/user-attachments/assets/19ddbc8d-4958-4a42-ab0a-cd7471797fad)
 - Controls multiplexing between 7-segment displays.
 
-### Component: mode_switch
-- Description: Module for switching between clock, stopwatch, and date modes.
-![tb_mode_switch](https://github.com/user-attachments/assets/901f5184-3fb4-43f8-a760-74e5e79c8c62)
-- Controlled via a single button; cycles through the modes.
+### Component: date_display
+- Description: Module for displaying and adjusting the date (day, month, year).
+![tb_date_display](https://github.com/user-attachments/assets/6d8f16af-ce0e-4cf0-9479-91a0584bfc94)
+- Supports cursor switching and individual field adjustment using buttons.
 
 ### Component: stopwatch
 - Description: Stopwatch module for measuring elapsed time from 00:00.
 ![tb_stopwatch](https://github.com/user-attachments/assets/c1f88b7a-b2a4-404e-97dd-12dd1e235b85)
 - Supports start/stop functionality via a button.
 - Displays seconds, minutes, and hours.
+
+### Component: mode_switch
+- Description: Module for switching between clock, stopwatch, and date modes.
+![tb_mode_switch](https://github.com/user-attachments/assets/901f5184-3fb4-43f8-a760-74e5e79c8c62)
+- Controlled via a single button; cycles through the modes.
 
