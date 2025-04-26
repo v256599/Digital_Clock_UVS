@@ -30,14 +30,14 @@ Describe your implementation. Put a descriptive top-level schematic of your appl
 Put flowchats/state diagrams of your algorithm(s) and direct links to source/testbench files in src and sim folders.
 
 The VHDL implementation is modular, with each functionality developed as a separate entity. The main modules are:
-- [`time_counter.vhd`](Project_digital_clock/Project_digital_clock.srcs/sources_1/imports/VHD2/clock_counter.vhd) — time counting
-- `stopwatch.vhd` — stopwatch functionality
-- `date_display.vhd` — date management
-- `mode_switch.vhd` — mode selection
-- `decoder.vhd` — BCD to 7-segment decoder
-- `anode_picker.vhd` — anode selection for display multiplexing
-- `mod6counter.vhd` — 0–5 counter for display switching
-- `clk_1hz.vhd` and `clk_1khz.vhd` — clock dividers
+- [`clock_counter.vhd`](Project_digital_clock/Project_digital_clock.srcs/sources_1/imports/VHD2/clock_counter.vhd) — time counting
+- [`stopwatch.vhd`](Project_digital_clock/Project_digital_clock.srcs/sources_1/imports/VHD2/stopwatch.vhd) — stopwatch functionality
+- [`date_display.vhd`](Project_digital_clock/Project_digital_clock.srcs/sources_1/imports/VHD2/date_display.vhd) — date management 
+- [`mode_switch.vhd`](Project_digital_clock/Project_digital_clock.srcs/sources_1/imports/VHD2/mode_switch.vhd)— mode selection 
+- [`decoder.vhd`](Project_digital_clock/Project_digital_clock.srcs/sources_1/imports/VHD2/decoder.vhd) — BCD to 7-segment decoder
+- [`anode_picker.vhd`](Project_digital_clock/Project_digital_clock.srcs/sources_1/imports/VHD2/anode_picker.vhd)— anode selection for display multiplexing
+- [`mod6counter.vhd`](Project_digital_clock/Project_digital_clock.srcs/sources_1/imports/VHD2/mod6counter.vhd) — 0–5 counter for display switching
+- [`clk_1hz.vhd`](Project_digital_clock/Project_digital_clock.srcs/sources_1/imports/VHD2/clk_1hz.vhd) and [`clk_1khz.vhd`](Project_digital_clock/Project_digital_clock.srcs/sources_1/imports/VHD2/clk_1khz.vhd) — clock dividers
 
 Each module is verified with a dedicated testbench:
 - `/sim/tb_clock_counter.vhd`
