@@ -4,13 +4,13 @@ use IEEE.NUMERIC_STD.ALL;
 
 entity clk_1khz is
   port (
-    clk_in  : in  std_logic;
-    clk_out : out std_logic
+    clk_in  : in  std_logic;  -- 100MHz
+    clk_out : out std_logic   -- 1kHz
   );
 end clk_1khz;
 
 architecture Behavioral of clk_1khz is
-  constant DIVIDER : natural := 50000;
+  constant DIVIDER : natural := 50_000;
   signal counter   : unsigned(15 downto 0) := (others => '0');
   signal tick      : std_logic := '0';
 begin
