@@ -40,15 +40,15 @@ The VHDL implementation is modular, with each functionality developed as a separ
 - [`clk_1hz.vhd`](Project_digital_clock/Project_digital_clock.srcs/sources_1/imports/VHD2/clk_1hz.vhd) and [`clk_1khz.vhd`](Project_digital_clock/Project_digital_clock.srcs/sources_1/imports/VHD2/clk_1khz.vhd) — clock dividers
 
 Each module is verified with a dedicated testbench:
-- `/sim/tb_clock_counter.vhd`
-- `/sim/tb_stopwatch.vhd`
-- `/sim/tb_date_display.vhd`
-- `/sim/tb_mode_switch.vhd`
-- `/sim/tb_decoder.vhd`
-- `/sim/tb_anode_picker.vhd`
-- `/sim/tb_mod6counter.vhd`
-- `/sim/tb_clk_1hz.vhd`
-- `/sim/tb_clk_1khz.vhd`
+- [`tb_clock_counter.vhd`](Project_digital_clock/Project_digital_clock.srcs/sim_1/imports/tb_VHD2/tb_clock_counter.vhd)
+- [`tb_stopwatch.vhd`](Project_digital_clock/Project_digital_clock.srcs/sim_1/imports/tb_VHD2/tb_stopwatch.vhd)
+- [`tb_date_display.vhd`](Project_digital_clock/Project_digital_clock.srcs/sim_1/imports/tb_VHD2/tb_date_display.vhd)
+- [`tb_mode_switch.vhd`](Project_digital_clock/Project_digital_clock.srcs/sim_1/imports/tb_VHD2/tb_mode_switch.vhd)
+- [`tb_decoder.vhd`](Project_digital_clock/Project_digital_clock.srcs/sim_1/imports/tb_VHD2/tb_decoder.vhd)
+- [`tb_anode_picker.vhd`](Project_digital_clock/Project_digital_clock.srcs/sim_1/imports/tb_VHD2/tb_anode_picker.vhd)
+- [`tb_mod6counter.vhd`](Project_digital_clock/Project_digital_clock.srcs/sim_1/imports/tb_VHD2/tb_mod6counter.vhd)
+- [`tb_clk_1hz.vhd`](Project_digital_clock/Project_digital_clock.srcs/sim_1/imports/tb_VHD2/tb_clk_1hz.vhd)
+- [`tb_clk_1khz.vhd`](Project_digital_clock/Project_digital_clock.srcs/sim_1/imports/tb_VHD2/tb_clk_1khz.vhd)
 
 Simple state diagrams were used for mode transitions, stopwatch start/stop control, and setting mechanisms.
 
