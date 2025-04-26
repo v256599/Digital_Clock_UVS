@@ -2,7 +2,7 @@
 ### Team members:
 - Patrik Svoboda (responsible for ...)
 - Dominik Uherka (responsible for ...)
-- Daniel Valčík (responsible for ...)
+- Daniel Valčík (responsible for ....)
 
 
 ## Abstract
