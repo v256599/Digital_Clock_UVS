@@ -24,8 +24,6 @@ This project implements a fully functional digital clock system using VHDL, desi
 Describe your implementation. Put a descriptive top-level schematic of your application.
 
 
-
-
 ## Software description
 Put flowchats/state diagrams of your algorithm(s) and direct links to source/testbench files in src and sim folders.
 
@@ -49,10 +47,6 @@ Each module is verified with a dedicated testbench:
 - [`tb_mod6counter.vhd`](Project_digital_clock/Project_digital_clock.srcs/sim_1/imports/tb_VHD2/tb_mod6counter.vhd)
 - [`tb_clk_1hz.vhd`](Project_digital_clock/Project_digital_clock.srcs/sim_1/imports/tb_VHD2/tb_clk_1hz.vhd)
 - [`tb_clk_1khz.vhd`](Project_digital_clock/Project_digital_clock.srcs/sim_1/imports/tb_VHD2/tb_clk_1khz.vhd)
-
-Simple state diagrams were used for mode transitions, stopwatch start/stop control, and setting mechanisms.
-
-
 
 
 ## Components simulations
