@@ -14,6 +14,11 @@ This project implements a fully functional digital clock system using VHDL, desi
 - Complete functional verification using individual testbenches for each module and successful top-level system integration and simulation.
 
 
+
+
+https://github.com/user-attachments/assets/dc616e41-188d-4471-bef7-118ba5829962
+
+
 [Photo(s) of your application with labels of individual parts.]
 
 [Link to A3 project poster.]
