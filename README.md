@@ -22,6 +22,8 @@ https://github.com/user-attachments/assets/dc616e41-188d-4471-bef7-118ba5829962
 ## Hardware description
 ### OLD Version of Top_level:
 ![Top_level](https://github.com/v256599/Digital_Clock_UVS/blob/main/hruby_nakres.png?raw=true)
+### FINAL Version of Top_level:
+![ObrázekSchema](https://github.com/user-attachments/assets/1b56f615-d6cb-419d-bfb3-4fe53cf0a4d9)
 
 The demo application is a digital clock system implemented on the Nexys A7 FPGA development board. The system integrates multiple functional blocks, including a standard clock (hours, minutes, seconds), a stopwatch module, and a date management module (day, month, year). 
 
