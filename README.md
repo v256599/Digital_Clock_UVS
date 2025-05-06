@@ -27,16 +27,12 @@ All modules are connected under a top-level entity named [`digital_clock.vhd`](P
 User interactions such as adjusting time, date, or operating the stopwatch are handled through push-buttons (BTNL, BTNR, BTNU, BTND, BTNC). Mode indication is provided through onboard LEDs, and all data are displayed via multiplexed 7-segment displays. Clock division is performed using internal clock divider modules generating 1 Hz and 1 kHz signals from the main system clock.
 ### OLD Version of Top_level:
 ![Top_level](https://github.com/v256599/Digital_Clock_UVS/blob/main/hruby_nakres.png?raw=true)
-
 ### FINAL Version of Top_level:
 ![ObrázekSchema](https://github.com/user-attachments/assets/1b56f615-d6cb-419d-bfb3-4fe53cf0a4d9)
-
 ### Mode: Time 
 ![ObrázekRežimHodin](https://github.com/user-attachments/assets/b8cfb091-9053-499e-88ab-3bc52bd33cff)
-
 ### Mode: Stopwatch
 ![ObrázekRežimStopky](https://github.com/user-attachments/assets/3ab49e9d-6504-4d69-8988-a010069c038b)
-
 ### Mode: Date
 ![ObrázekRežimDatum](https://github.com/user-attachments/assets/591e5af4-396b-475c-a901-5976d313416b)
 
