@@ -112,3 +112,9 @@ Each module is verified with a dedicated testbench:
 ![tb_mode_switch](https://github.com/user-attachments/assets/901f5184-3fb4-43f8-a760-74e5e79c8c62)
 - Controlled via a single button; cycles through the modes.
 
+# References
+https://www.edaplayground.com/
+
+https://vhdl.lapinoo.net/
+
+https://github.com/tomas-fryza/vhdl-labs
