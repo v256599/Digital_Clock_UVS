@@ -44,7 +44,7 @@ User interactions such as adjusting time, date, or operating the stopwatch are h
 
 ## Software description
 The VHDL implementation is modular, with each functionality developed as a separate entity. The main modules are:
-- [`digital_clock.vhd`](Project_digital_clock/Project_digital_clock.srcs/sources_1/imports/VHD2/digital_clock.vhd) - top level entity
+- [`digital_clock.vhd`](Project_digital_clock/Project_digital_clock.srcs/sources_1/imports/VHD2/digital_clock.vhd) - top-level entity
 - [`clock_counter.vhd`](Project_digital_clock/Project_digital_clock.srcs/sources_1/imports/VHD2/clock_counter.vhd) — time counting
 - [`stopwatch.vhd`](Project_digital_clock/Project_digital_clock.srcs/sources_1/imports/VHD2/stopwatch.vhd) — stopwatch functionality
 - [`date_display.vhd`](Project_digital_clock/Project_digital_clock.srcs/sources_1/imports/VHD2/date_display.vhd) — date management 
