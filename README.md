@@ -19,6 +19,8 @@ This project implements a fully functional digital clock system using VHDL, desi
 https://github.com/user-attachments/assets/dc616e41-188d-4471-bef7-118ba5829962
 
 ![ObrázekRežimHodin](https://github.com/user-attachments/assets/b8cfb091-9053-499e-88ab-3bc52bd33cff)
+![ObrázekRežimStopky](https://github.com/user-attachments/assets/3ab49e9d-6504-4d69-8988-a010069c038b)
+![ObrázekRežimDatum](https://github.com/user-attachments/assets/591e5af4-396b-475c-a901-5976d313416b)
 
 [Photo(s) of your application with labels of individual parts.]
 
