@@ -22,7 +22,7 @@ https://github.com/user-attachments/assets/dc616e41-188d-4471-bef7-118ba5829962
 ## Hardware description
 The demo application is a digital clock system implemented on the Nexys A7 FPGA development board. The system integrates multiple functional blocks, including a standard clock (hours, minutes, seconds), a stopwatch module, and a date management module (day, month, year). 
 
-All modules are connected under a top-level entity named [`clock_counter.vhd`](Project_digital_clock/Project_digital_clock.srcs/sources_1/imports/VHD2/clock_counter.vhd), which coordinates the system operation. A mode-switching module allows users to cycle between clock, stopwatch, and date modes using a dedicated button. 
+All modules are connected under a top-level entity named [`digital_clock.vhd`](Project_digital_clock/Project_digital_clock.srcs/sources_1/imports/VHD2/digital_clock.vhd), which coordinates the system operation. A mode-switching module allows users to cycle between clock, stopwatch, and date modes using a dedicated button. 
 
 User interactions such as adjusting time, date, or operating the stopwatch are handled through push-buttons (BTNL, BTNR, BTNU, BTND, BTNC). Mode indication is provided through onboard LEDs, and all data are displayed via multiplexed 7-segment displays. Clock division is performed using internal clock divider modules generating 1 Hz and 1 kHz signals from the main system clock.
 ### OLD Version of Top_level:
@@ -44,6 +44,7 @@ User interactions such as adjusting time, date, or operating the stopwatch are h
 
 ## Software description
 The VHDL implementation is modular, with each functionality developed as a separate entity. The main modules are:
+- [`digital_clock.vhd`](Project_digital_clock/Project_digital_clock.srcs/sources_1/imports/VHD2/digital_clock.vhd) - top level entity
 - [`clock_counter.vhd`](Project_digital_clock/Project_digital_clock.srcs/sources_1/imports/VHD2/clock_counter.vhd) — time counting
 - [`stopwatch.vhd`](Project_digital_clock/Project_digital_clock.srcs/sources_1/imports/VHD2/stopwatch.vhd) — stopwatch functionality
 - [`date_display.vhd`](Project_digital_clock/Project_digital_clock.srcs/sources_1/imports/VHD2/date_display.vhd) — date management 
